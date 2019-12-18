@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite"
+    tools:context=".MainActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sst2015a" />
+
+            <ImageView
+                android:id="@+id/a"
+                android:layout_width="344dp"
+                android:layout_height="245dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/hump"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/textViewb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+
+                android:background="@color/colorwhite"
+                android:text="@string/sst2015b"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/bb"
+                android:layout_width="344dp"
+                android:layout_height="253dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/ea2"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/textViewc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:layout_marginLeft="5dp"
+                android:text="@string/sst2015c" />
+
+            <ImageView
+                android:id="@+id/ccju"
+                android:layout_width="344dp"
+                android:layout_height="253dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/graph"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/textViiuewd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sst2015d" />
+            <ImageView
+                android:id="@+id/ccjkr"
+                android:layout_width="344dp"
+                android:layout_height="253dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/afri2"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/textViewdui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sst2015e" />
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CCC"
+                android:paddingTop="1dp"
+                android:stretchColumns="1"
+                android:id="@+id/tlTable01"
+                android:orientation="horizontal">
+                <TableRow
+                    android:background="#CCC"
+                    android:paddingBottom="1dp"
+
+                    android:paddingRight="9dp">
+
+                    <TextView
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:background="#FFF"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"
+                        android:padding="5dp"
+                        android:text="Country"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="5dp"
+                        android:background="#FFF"
+                        android:gravity="center"
+                        android:text="political leaders"/>
+                    <TextView
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="5dp"
+                        android:background="#FFF"
+                        android:gravity="center"
+                        android:text="political party"/>
+                </TableRow>
+                <TableRow
+                    android:background="#CCC"
+                    android:paddingBottom="1dp"
+                    android:paddingRight="1dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_marginLeft="1dp"
+                        android:background="#FFF"
+                        android:padding="5dp"
+                        android:text="Tanganyika" />
+                    <TextView
+                        android:layout_marginLeft="1dp"
+                        android:padding="5dp"
+                        android:background="#FFF"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="left"
+                        android:paddingLeft="0dp"
+                        android:text="Mwalimu Julius Nyerere"/>
+                    <TextView
+                        android:layout_marginLeft="1dp"
+                        android:padding="5dp"
+                        android:background="#FFF"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="left"
+                        android:paddingLeft="0dp"
+                        android:text="..........."/>
+                </TableRow>
+
+                <TableRow
+                    android:background="#CCC"
+                    android:paddingBottom="1dp"
+                    android:paddingRight="1dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_marginLeft="1dp"
+                        android:background="#FFF"
+                        android:padding="5dp"
+                        android:text="Uganda" />
+                    <TextView
+                        android:layout_marginLeft="1dp"
+                        android:padding="5dp"
+                        android:paddingLeft="0dp"
+                        android:background="#FFF"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="left"
+                        android:text=".........."/>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_marginLeft="1dp"
+                        android:background="#FFF"
+                        android:padding="5dp"
+                        android:text="(UPC)" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#CCC"
+                    android:paddingBottom="1dp"
+                    android:paddingRight="1dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_marginLeft="1dp"
+                        android:background="#FFF"
+                        android:padding="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="......." />
+                    <TextView
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorBlack"
+                        android:padding="5dp"
+                        android:background="#FFF"
+                        android:gravity="left"
+                        android:paddingLeft="0dp"
+                        android:text="Nelson mandela"/>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_marginLeft="1dp"
+                        android:background="#FFF"
+                        android:padding="5dp"
+                        android:text="African national congress" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorBlack"
+                        android:background="#FFF"
+                        android:padding="5dp"
+                        android:text="Pentecost day" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#CCC"
+                    android:paddingBottom="1dp"
+                    android:paddingRight="1dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorBlack"
+                        android:background="#FFF"
+                        android:padding="5dp"
+                        android:text="kenya" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorBlack"
+                        android:background="#FFF"
+                        android:padding="5dp"
+                        android:text=".........." />
+                    <TextView
+                        android:layout_marginLeft="1dp"
+                        android:padding="5dp"
+                        android:background="#FFF"
+                        android:gravity="left"
+                        android:paddingLeft="0dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="Kenya African National Union"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sst2015f" />
+
+            <ImageView
+                android:id="@+id/cc"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/hill"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sst2015g" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

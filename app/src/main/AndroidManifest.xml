@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uneb">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".settingactivity" android:parentActivityName=".sst2017activity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".math2013activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".math2014actictivity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".math2015activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".math2016"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".settingsactivit"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".math2017activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng1998activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng1999activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2000activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2001activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2002activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2003activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2004activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2005activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2006activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+
+            android:name=".eng2007activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2008activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2009activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2011activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2013activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2014activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2015activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2016activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".eng2017activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci1998activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci1999activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2000activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2001activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2002activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2003activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2004activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2005activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2006activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2007activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2008activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2009activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2014activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2015activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2016activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sci2017activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2009activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2008activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2007activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2006activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2005activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2004activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2003activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2002activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2001activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2000activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst1999"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2014activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2015activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2016activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst2017activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".sst1998activity"
+            android:parentActivityName=".pleactivity" />
+        <activity
+            android:name=".pleactivity"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

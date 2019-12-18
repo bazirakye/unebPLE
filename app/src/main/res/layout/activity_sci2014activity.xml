@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite"
+    tools:context=".MainActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014a" />
+
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="245dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+                android:padding="0dp"
+                android:src="@drawable/sci20141"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014b"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="344dp"
+                android:layout_height="253dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/sci20142"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:layout_marginLeft="5dp"
+                android:text="@string/sci2014c" />
+
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="353dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/sci20143"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/textViewd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014d" />
+            <ImageView
+
+                android:layout_width="300dp"
+                android:layout_height="253dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/sci20144"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/textViewe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014e" />
+
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="245dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+                android:padding="0dp"
+                android:src="@drawable/sci20145"
+                android:textColor="@color/colorBlack" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014f" />
+
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="245dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+                android:padding="0dp"
+                android:src="@drawable/sci20146"
+                android:textColor="@color/colorBlack" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014g" />
+
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="245dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+                android:padding="0dp"
+                android:src="@drawable/sci20147"
+                android:textColor="@color/colorBlack" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014h" />
+
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="245dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+                android:padding="0dp"
+                android:src="@drawable/sci20148"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014i" />
+
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="245dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+                android:padding="0dp"
+                android:src="@drawable/sci20149"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014j" />
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="245dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+                android:padding="0dp"
+                android:src="@drawable/sci201411"
+                android:textColor="@color/colorBlack" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/sci2014k" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

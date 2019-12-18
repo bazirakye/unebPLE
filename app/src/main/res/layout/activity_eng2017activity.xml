@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite"
+    tools:context=".MainActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/eng2017a" />
+
+            <ImageView
+
+                android:layout_width="400dp"
+                android:layout_height="345dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+                android:padding="0dp"
+                android:src="@drawable/eng20171"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+
+                android:background="@color/colorwhite"
+                android:text="@string/eng2017b"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="403dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/eng20172"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:layout_marginLeft="5dp"
+                android:text="@string/eng2017c" />
+
+            <ImageView
+
+                android:layout_width="344dp"
+                android:layout_height="253dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorwhite"
+
+                android:padding="0dp"
+                android:src="@drawable/eng20173"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/textViewd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorwhite"
+                android:text="@string/eng2017d" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

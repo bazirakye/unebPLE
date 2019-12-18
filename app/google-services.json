@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "365064557033",
+    "firebase_url": "https://uneb-past-papers.firebaseio.com",
+    "project_id": "uneb-past-papers",
+    "storage_bucket": "uneb-past-papers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365064557033:android:8af6d8563024864b",
+        "android_client_info": {
+          "package_name": "com.example.uneb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365064557033-o62i06r02aqoqdc9jskf7tbjip1ojrjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4JT4CDJCwVUnt_HTO1J70iQ-WDdcht28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365064557033-o62i06r02aqoqdc9jskf7tbjip1ojrjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
